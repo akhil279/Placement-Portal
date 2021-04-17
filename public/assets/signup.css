@@ -1,0 +1,147 @@
+
+.leave {
+    margin: auto;
+    width: 50%;
+    padding: 10px;
+}
+
+html,
+body {
+    background-image: url('https://lh3.googleusercontent.com/proxy/tE6Jf-l7wl4-uuCXH8SM6LvmG8hXo6VlYEtp9R3np9oasrPYgl6w-3vSUX-89uUwMBouZCc9yIMCaX8T9PITp5GB36CX21i6-sgpxz8XjDyNhaj8IqoiJGTFhMRkj3NG0nrkL-SG7P9sL5lk_-qZqv4');
+    background-size: 100% 100%;
+    background-repeat: no-repeat;
+    height: 100%;
+    font-family: 'Numans', sans-serif;
+    text-align: center;
+}
+
+
+#sign-up {
+    height: 580px;
+}
+
+.container {
+    height: 100%;
+    align-content: center;
+}
+
+.card {
+    height: 400px;
+    margin-top: 100px;
+    margin-bottom: auto;
+    width: 320px;
+    background-color: rgba(0, 0, 0, 0.75);
+}
+
+
+.social_icon span {
+    font-size: 60px;
+    margin-left: 10px;
+    color: #E1306C;
+}
+
+.social_icon span:hover {
+    color: white;
+    cursor: pointer;
+}
+
+.card-header h3 {
+    color: white;
+}
+
+.social_icon {
+    position: absolute;
+    right: 20px;
+    top: -45px;
+}
+
+
+.card-body {
+    height: 350px !important;
+    padding-top: 0px;
+    padding-bottom: 0px;
+}
+
+.input-group-prepend span {
+    width: 50px;
+    background-color:purple;
+    color: black;
+    border: 0 !important;
+}
+
+input:focus {
+    outline: 0 0 0 0 !important;
+    box-shadow: 0 0 0 0 !important;
+
+}
+
+.remember {
+    color: white;
+}
+
+.remember input {
+    width: 20px;
+    height: 20px;
+    margin-left: 15px;
+    margin-right: 5px;
+}
+
+.formbutton {
+    margin-top: 40px;
+}
+
+.login_btn {
+    display: block;
+    margin: auto;
+    color: #E1306C;
+    background-color: white;
+    width: 100px;
+    margin-bottom: 10px;
+}
+
+.login_btn:hover {
+    color: white;
+    background-image: linear-gradient(to right, purple, pink);
+}
+
+.links {
+    color: white;
+}
+
+.links a {
+    margin-left: 4px;
+}
+
+.dropdown:hover>.dropdown-menu {
+    display: block;
+}
+
+.signup {
+    display: block;
+}
+
+#noaccount {
+    color: white;
+}
+
+a:link {
+    color: #E1306C;
+    background-color: transparent;
+    text-decoration: none;
+}
+
+a:visited {
+    color: purple;
+    background-color: transparent;
+    text-decoration: none;
+}
+
+a:hover {
+    color: #F77737;
+    background-color: transparent;
+    text-decoration: underline;
+}
+
+.login_btn{
+    padding-bottom: 10px;
+}
