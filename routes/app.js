@@ -1,7 +1,7 @@
 const express = require('express');
 const router = express.Router();
 // const homepageController = require('../controllers/homepage_controller')
-
+router.use('/mainpage', require('./mainpage'));
 // router.get('/',homepageController.homePage);
 router.use('/login', require('./login'));
 router.use('/signin', require('./signin'));
